@@ -6,4 +6,4 @@ https://github.com/bhj/karaoke-forever
 
 docker run -d -p 80:80 -v /mnt/yourcdg:/cdgfiles david510c/karaoke-forever
 
-Be sure to mount your own cdg files
+Change /mnt/yourcdg to the location of your own cdg files
