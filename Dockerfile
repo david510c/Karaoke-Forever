@@ -13,4 +13,4 @@ RUN npm install
 RUN npm run compile
 
 EXPOSE 80
-CMD [ “npm”, “run”, “serve -- --port 80" ]
+CMD [“serve", "-p", "80"]
