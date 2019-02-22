@@ -8,4 +8,4 @@ $ docker run -d -p 80:80 -v /mnt/yourcdg:/cdgfiles david510c/karaoke-forever
 
 Change /mnt/yourcdg to the location of your own cdg files
 
-Access http://localhost and sing!
+Access http://yourserver and sing!
