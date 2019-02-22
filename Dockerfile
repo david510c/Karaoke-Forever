@@ -11,6 +11,8 @@ WORKDIR /karaoke-forever
 
 RUN npm install
 RUN npm run compile
-CMD npm run serve -- --port 80
+
+ENTRYPOINT ["npm", "run"]
+CMD ["serve", "--", "--port", "80"]
 
 EXPOSE 80
