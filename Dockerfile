@@ -10,7 +10,7 @@ RUN git clone https://github.com/bhj/karaoke-forever.git
 WORKDIR /karaoke-forever
 
 RUN npm install
-RUN npm run compile
+RUN npm run build
 
 ENTRYPOINT ["npm", "run"]
 CMD ["serve", "--", "--port", "80"]
